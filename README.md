@@ -1,4 +1,4 @@
-#DDD Architecture [Tu Sistema]
+# DDD Architecture [Tu Sistema]
 
 Este proyecto es una aplicación modular diseñada bajo los principios de **Domain-Driven Design (DDD)** para la gestión y documentación de procesos. Su arquitectura separa claramente las responsabilidades para facilitar el mantenimiento y la escalabilidad, ofreciendo una solución integral que implementa las mejores prácticas del dominio.
 
@@ -35,3 +35,12 @@ Capa de dominio pura que contiene:
 
 - **domain-events** → Eventos de dominio para la comunicación entre componentes
 - **entities** → Entidades del modelo de dominio
+
+├───interfaces
+│   └───rest
+└───model
+    ├───application
+    ├───bounded-contexto
+    └───domain
+        ├───domain-events
+        └───entities
