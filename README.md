@@ -1,4 +1,4 @@
-#**DDD Architecture [Tu Sistema]**
+#DDD Architecture [Tu Sistema]
 
 Este proyecto es una aplicación modular diseñada bajo los principios de **Domain-Driven Design (DDD)** para la gestión y documentación de procesos. Su arquitectura separa claramente las responsabilidades para facilitar el mantenimiento y la escalabilidad, ofreciendo una solución integral que implementa las mejores prácticas del dominio.
 
@@ -24,13 +24,13 @@ Contiene las interfaces de acceso a la aplicación mediante endpoints REST, orga
 ### model/
 Estructura de modelo de dominio organizada por capas:
 
-#### application/uses_cases/
+### application/uses_cases/
 Casos de uso de la aplicación que definen la lógica de negocio de alto nivel y coordinan las operaciones entre diferentes capas.
 
-#### bounded-contexto/
+### bounded-contexto/
 Contextos limitados que representan áreas de negocio separadas:
 
-#### domain/
+### domain/
 Capa de dominio pura que contiene:
 
 - **domain-events** → Eventos de dominio para la comunicación entre componentes
