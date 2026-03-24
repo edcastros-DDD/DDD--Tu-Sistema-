@@ -18,6 +18,7 @@ El proyecto se encuentra en fase de desarrollo activo, con implementación conti
 
 ## Estructura de Carpetas
 
+```
 
 ├───interfaces
 │   └───rest     
@@ -29,6 +30,8 @@ El proyecto se encuentra en fase de desarrollo activo, con implementación conti
 │   └───domain
 │       ├───domain-events
 │       └───entities
+
+```
 
 ### interfaces/rest/
 Contiene las interfaces de acceso a la aplicación mediante endpoints REST, organizados por funcionalidades específicas:
