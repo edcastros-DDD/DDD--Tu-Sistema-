@@ -18,6 +18,18 @@ El proyecto se encuentra en fase de desarrollo activo, con implementación conti
 
 ## Estructura de Carpetas
 
+
+├───interfaces
+│   └───rest     
+└───model
+│   ├───application
+│   │   └───uses_cases
+│   ├───bounded-contexto
+│   │   
+│   └───domain
+│       ├───domain-events
+│       └───entities
+
 ### interfaces/rest/
 Contiene las interfaces de acceso a la aplicación mediante endpoints REST, organizados por funcionalidades específicas:
 
@@ -36,13 +48,3 @@ Capa de dominio pura que contiene:
 - **domain-events** → Eventos de dominio para la comunicación entre componentes
 - **entities** → Entidades del modelo de dominio
 
-├───interfaces
-│   └───rest     
-└───model
-    ├───application
-    │   └───uses_cases
-    ├───bounded-contexto
-    │   
-    └───domain
-        ├───domain-events
-        └───entities
