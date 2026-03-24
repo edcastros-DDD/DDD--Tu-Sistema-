@@ -37,10 +37,12 @@ Capa de dominio pura que contiene:
 - **entities** → Entidades del modelo de dominio
 
 ├───interfaces
-│   └───rest
+│   └───rest     
 └───model
     ├───application
+    │   └───uses_cases
     ├───bounded-contexto
+    │   
     └───domain
         ├───domain-events
         └───entities
