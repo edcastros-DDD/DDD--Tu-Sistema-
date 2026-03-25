@@ -42,7 +42,7 @@ Estructura de modelo de dominio organizada por capas:
 ### application/uses_cases/
 Casos de uso de la aplicación que definen la lógica de negocio de alto nivel y coordinan las operaciones entre diferentes capas.
 
-### bounded-contexto/
+### bounded-context/
 Contextos limitados que representan áreas de negocio separadas:
 
 ### domain/
